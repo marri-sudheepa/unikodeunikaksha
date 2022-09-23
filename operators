@@ -1,0 +1,106 @@
+#SUM AND DIFFERENCE
+a=int(input())
+b=int(input())
+print(a+b)
+print(a-b)
+
+
+#PRODUCT AND DIVISION
+a=int(input())
+b=int(input())
+print(a*b)
+print(a//b)
+print(a%b)
+
+
+#SWAPPING OF TWO NUMBERS
+a=int(input())
+b=int(input())
+t=a
+a=b
+b=t
+print(a)
+print(b)
+
+
+#SWAPPING WITHOUT THIRD VARIABLE
+a=int(input())
+b=int(input())
+c=a+b
+a=c-a
+b=c-b
+print(a)
+print(b)
+
+
+#AVERAGE CALCULATION
+a=int(input())
+b=int(input())
+c=int(input())
+d=int(input())
+e=int(input())
+sum=a+b+c+d+e
+nob=5
+avg=sum//nob
+print("%.2f" % avg)
+
+
+#ALICE IN WONDERLAND
+n=int(input())
+a=n//10
+b=n%10
+c=a+b
+print(c)
+
+
+#AREA CALCULATION
+a=int(input("enter the side of square"))
+b=int(input("enter length"))
+c=int(input("enter breadth"))
+r=float(input("enter radius"))
+print(a*a)
+print(b*c)
+d=3.14*r*r
+print("%.2f" % d)
+
+
+#FENCING THE GROUND
+l=int(input())
+b=int(input())
+p=2*l+2*b
+a=l*b
+print("Required Length is",p,"m")
+print("Required quantity of carpet is",a,"sqm")
+
+
+#POWER OF A NUMBER
+X=int(input())
+N=int(input())
+print(pow(X,N))
+
+
+#SIMPLE INTEREST
+p=int(input())
+t=int(input())
+r=float(input())
+si=(p*t*r)//100
+print("%.2f" % si)
+
+
+#SPLITTING INTO TEAMS
+n=int(input())
+t=int(input())
+e=n//t
+o=n%t
+print("The number of students in each team is",e,"and left out is",o,)
+
+
+#THREE IDIOTS
+x1=int(input())
+y1=int(input())
+x2=int(input())
+y2=int(input())
+a=(x1+x2)/2
+b=(y1+y2)/2
+print("Binoy's house is located at",(a,b),)
+
