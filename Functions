@@ -1,0 +1,94 @@
+#ARITHMERIC OPERATORS
+def addition(num1, num2):
+    return num1 + num2
+def subtraction(num1, num2):
+    return num1 - num2
+def multiplication(num1, num2):
+    return num1 * num2
+def division(num1, num2):
+    return num1 / num2
+def floordivision(num1, num2):
+    return num1 // num2
+def modulus(num1, num2):
+    return num1 % num2
+num1=int(input())
+num2=int(input())
+print(addition(num1,num2))
+print(subtraction(num1,num2))
+print(multiplication(num1,num2))
+print(division(num1,num2))
+print(floordivision(num1,num2))
+print(modulus(num1,num2))
+
+
+#SQUARE ROOT
+def square(num1):
+    return num1*num1
+num1=int(input())
+print(square(num1))
+
+
+#CUBE ROOT
+def cube(num1):
+    return num1*num1*num1
+num1=int(input())
+print(cube(num1))
+
+
+#BINARY EQUIVALENT OF A NUMBER USING RECURSION
+def bin(n):
+    if(n>1):
+        bin(n//2)
+    print(n%2,end="")
+dec=int(input())
+bin(dec)
+        
+
+#FIBINOCCI SERIES
+def fibo(n):  
+   if n <= 1:  
+       return n  
+   else:  
+       return(fibo(n-1) + fibo(n-2))  
+n = int(input())  
+if n<= 0:  
+   print("Plese enter a positive integer")  
+else:  
+   for i in range(n):  
+       print(fibo(i))  
+    
+    
+#ODD OR EVEN
+def Even(num):
+     if(num<2):
+         return (num%2 == 0)
+     return Even(num-2)
+num=int(input())
+if(Even(num)==True):
+    print("Even!")
+else:
+    print("Odd!")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
