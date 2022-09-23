@@ -1,0 +1,37 @@
+#FACTORIAL
+def factorial(n):
+  if n == 1 or n==0:
+     return 1
+  else:
+      return n*factorial(n-1)
+num=int(input())
+print(factorial(num))
+ 
+
+#LCM OF TWO NUMBERS
+def findlcm(a, b):
+    if(a > b):
+        maximum = a
+    else:
+        maximum = b
+ 
+    while(True):
+        if(maximum % a == 0 and maximum % b == 0):
+            lcm = maximum;
+            break;
+        maximum = maximum + 1
+    return lcm
+ 
+num1 = int(input())
+num2 = int(input())
+print(findlcm(num1,num2))
+
+
+#DECIMAL TO BINARY
+def bin(n):
+    if(n>1):
+        bin(n//2)
+    print(n%2,end="")
+dec=int(input())
+bin(dec)
+        
