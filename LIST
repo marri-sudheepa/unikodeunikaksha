@@ -1,0 +1,158 @@
+#CREATE A LIST
+n=int(input())
+a=[]
+for i in range(1,n+1):
+    b=int(input())
+    a.append(b)
+print(a)
+
+
+#LARGEST NUMBER IN A LIST
+a=[]
+n=int(input())
+for i in range(1,n+1):
+    b=int(input())
+    a.append(b)
+a.sort()
+print(a[n-1])
+        
+        
+#ODD OR EVEN
+n=int(input())
+a=[]
+for i in range(1,n+1):
+    b=int(input())
+    a.append(b)
+b=[]
+for j in range(0,n):
+    if(a[j]%2==0):
+        even=a[j]
+        b.append(even)
+c=[]
+for z in range(0,n):
+    if(a[z]%2!=0):
+        odd=a[z]
+        c.append(odd)
+print("The even list",b)
+print("The odd list",c)
+        
+    
+#ARRAY MEAN
+n=int(input())
+a=[]
+for i in range(0,n):
+    b=int(input())
+    a.append(b)
+sum=0
+for j in range(0,n):
+    sum=sum+a[j]
+tot=len(a)
+avg=sum/tot
+print("%.1f" % avg)
+    
+    
+#SORT THE LIST
+n=int(input())
+a=[]
+for i in range(0,n):
+    b=int(input())
+    a.append(b)
+n=int(input())
+c=[]
+for j in range(0,n):
+    d=int(input())
+    c.append(d)
+m=a+c
+m.sort()
+print("sorted list is:",m)
+
+
+#REMOVE DUPLICATES
+n=int(input())
+a=[]
+for i in range(0,n):
+    b=int(input())
+    a.append(b)
+c=[]
+for j in range(0,n):
+    if a[j] not in c:
+        c.append(a[j])
+print(c)
+
+
+#SECOND LARGEESTNUMBER
+n=int(input())
+a=[]
+for i in range(0,n):
+    b=int(input())
+    a.append(b)
+a.sort()
+print(a[n-2])
+
+
+#SWAP THE NUMBERS
+n=int(input())
+a=[]
+for i in range(0,n):
+    b=int(input())
+    a.append(b)
+a[0],a[n-1]=a[n-1],a[0]
+print(a)
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
